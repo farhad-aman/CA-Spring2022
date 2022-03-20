@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/farhad/Desktop/Lab 2/Session2/decoder_2bit.xst" -ofn "C:/Users/farhad/Desktop/Lab 2/Session2/decoder_2bit.syr" 
+xst -intstyle ise -ifn "C:/Users/farhad/Desktop/Lab 2/Session2/decoder_2bit.xst" -ofn "C:/Users/farhad/Desktop/Lab 2/Session2/decoder_2bit.syr" 
+xst -intstyle ise -ifn "C:/Users/farhad/Desktop/Lab 2/Session2/decoder_2bit.xst" -ofn "C:/Users/farhad/Desktop/Lab 2/Session2/decoder_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 "decoder_2bit.ngc" decoder_2bit.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_2bit_map.ncd decoder_2bit.ngd decoder_2bit.pcf 
+par -w -intstyle ise -ol high -mt off decoder_2bit_map.ncd decoder_2bit.ncd decoder_2bit.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml decoder_2bit.twx decoder_2bit.ncd -o decoder_2bit.twr decoder_2bit.pcf 
