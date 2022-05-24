@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/farhad/Desktop/Lab8/ram_dual_port/ram_tb_isim_beh.exe" -prj "C:/Users/farhad/Desktop/Lab8/ram_dual_port/ram_tb_beh.prj" "work.ram_tb" 

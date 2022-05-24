@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Programming/ISE Projects/ShiftUniversal/shift_tb_isim_beh.exe" -prj "D:/Programming/ISE Projects/ShiftUniversal/shift_tb_beh.prj" "work.shift_tb" 

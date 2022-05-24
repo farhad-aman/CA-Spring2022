@@ -1,0 +1,4 @@
+vhdl work "mux4x1.vhd"
+vhdl work "DFF.vhd"
+vhdl work "Shift.vhd"
+vhdl work "shift_tb.vhd"

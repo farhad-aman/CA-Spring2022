@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/farhad/Desktop/Lab4/Session4/seq_1110_0.xst" -ofn "C:/Users/farhad/Desktop/Lab4/Session4/seq_1110_0.syr" 
+xst -intstyle ise -ifn "C:/Users/farhad/Desktop/Lab4/Session4/seq_1110_0.xst" -ofn "C:/Users/farhad/Desktop/Lab4/Session4/seq_1110_0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 seq_1110_0.ngc seq_1110_0.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o seq_1110_0_map.ncd seq_1110_0.ngd seq_1110_0.pcf 
+par -w -intstyle ise -ol high -mt off seq_1110_0_map.ncd seq_1110_0.ncd seq_1110_0.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml seq_1110_0.twx seq_1110_0.ncd -o seq_1110_0.twr seq_1110_0.pcf 

@@ -1,0 +1,6 @@
+AR mux4x1 structural "D:/Programming/ISE Projects/ShiftUniversal/mux4x1.vhd" sub00/vhpl01 1651929934
+EN dff NULL "D:/Programming/ISE Projects/ShiftUniversal/DFF.vhd" sub00/vhpl02 1651929935
+EN mux4x1 NULL "D:/Programming/ISE Projects/ShiftUniversal/mux4x1.vhd" sub00/vhpl00 1651929933
+AR shift behavioral "D:/Programming/ISE Projects/ShiftUniversal/Shift.vhd" sub00/vhpl05 1651929938
+EN shift NULL "D:/Programming/ISE Projects/ShiftUniversal/Shift.vhd" sub00/vhpl04 1651929937
+AR dff behavioral "D:/Programming/ISE Projects/ShiftUniversal/DFF.vhd" sub00/vhpl03 1651929936
